@@ -7,7 +7,7 @@ bot = telebot.TeleBot("2119220921:AAH6I2AxwpFWxERgjulXaBIIAUNRg7w_QuU")
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
 	bot.reply_to(message, "Type @howsmartamibot in any chat and hit \"Share my IQ\"")
-print("хуяк")
+    print("хуяк")
 
 @bot.message_handler(commands=['donate'])
 def donate(message):
